@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2026.1.10)  12 JAN 2026 11:37
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2026.1.10)  26 JAN 2026 08:47
  restricted system commands enabled.
 **cv_jose_valdivia.tex
 (./cv_jose_valdivia.tex
@@ -825,7 +825,7 @@ Here is how much of LuaTeX's memory you used:
  433 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 52 glue_spec,
  5 attribute_list, 2 write nodes
-   avail lists: 1:2,2:541,3:306,4:163,5:514,6:73,7:9529,9:388,10:11,11:857
+   avail lists: 1:2,2:538,3:277,4:149,5:545,6:66,7:9995,9:360,10:10,11:929
  47117 multiletter control sequences out of 65536+600000
  38 fonts using 20365503 bytes
  102i,5n,101p,529b,1088s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -835,7 +835,7 @@ tf></usr/share/texlive/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome
 avu/DejaVuSans.ttf></usr/share/texlive/texmf-dist/fonts/opentype/public/fontawes
 ome5/FontAwesome5Free-Solid-900.otf></usr/share/texlive/texmf-dist/fonts/truetyp
 e/public/dejavu/DejaVuSans-Bold.ttf>
-Output written on cv_jose_valdivia.pdf (3 pages, 74703 bytes).
+Output written on cv_jose_valdivia.pdf (3 pages, 74994 bytes).
 
 PDF statistics: 70 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
