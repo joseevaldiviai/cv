@@ -4,7 +4,7 @@
 
 \documentclass[11pt, a4paper]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[margin=0.75in]{geometry}
+\usepackage[margin=0.65in]{geometry}
 \usepackage{fontspec}
 \usepackage{parskip}
 \usepackage{enumitem}
@@ -33,6 +33,8 @@
 \newcommand{\company}[1]{\textit{#1}} % Empresa
 \usepackage{tikz}
 \newcommand{\techbadge}[1]{\tikz[baseline]\node[circle, fill=accent!20, inner sep=1pt]{#1};}
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{8pt}{4pt} % Reduce el espacio arriba y abajo de cada sección
 
 \begin{document}
 	
@@ -49,143 +51,93 @@
 	\end{center}
 	
 	% --- Resumen profesional --- %
-	\header{Professional Profile}
-	Backend Developer with 9+ years of experience building scalable and maintainable systems using PHP. Specialized in developing APIs and backend services following SOLID principles, layered architecture, and clean code practices.
-	\par
-	Experienced in working with SQL databases, Docker, PHPUnit, and Git. Skilled at integrating third-party services, working in Agile teams, and delivering reliable, well-tested solutions for high-impact industries such as travel-tech and eCommerce.
-	\par
-	Passionate about solving complex technical challenges, learning emerging technologies, and collaborating with cross-functional and international teams. I strive to build maintainable, secure, and high-quality software that improves user experience and business outcomes.
+\header{Professional Profile}
+Senior PHP \& API Integration Specialist with 9+ years of experience in the Magento/Adobe Commerce ecosystem. Expert in bridging the gap between high-level software architecture and hands-on technical execution. Proven track record of stabilizing failing platforms, refactoring legacy codebases, and building high-performance APIs. I provide immediate value by resolving deep-seated technical debt while maintaining a strategic vision for scalability, security, and business-driven results.
 	
 	% --- Habilidades técnicas --- %
 	\header{Tech Skills}
-	\begin{itemize}[noitemsep, topsep=3pt]
-		\item \textbf{Programming \& Backend}: PHP 7/8, RESTful APIs, MySQL, MariaDB, Elasticsearch, OpenSearch, Magento 1/2, Custom Module Development, Adobe Commerce, PHPUnit.
-		\item \textbf{Architecture \& DevOps}: Docker, Git, CI/CD (Bitbucket Pipelines, GitHub Actions), Linux (Ubuntu), Redis, RabbitMQ, Varnish.
-		\item \textbf{Frontend Development}: Knockout.js, jQuery, JavaScript, HTML5, CSS3, LESS, SASS.
-		\item \textbf{Tools \& Workflows}: PHPStorm, Xdebug, Jira, Confluence, Agile/Scrum methodologies, Bitbucket, GitHub, Clean Architecture / Hexagonal structure, SOLID.
-		\item \textbf{Cloud \& Integrations}: ERP/CRM integrations, Payment Gateways, Adobe Commerce Cloud, Third-party API integrations, Performance Optimization.
-	\end{itemize}
+\begin{itemize}[noitemsep, topsep=2pt]
+	\item \textbf{Backend \& E-commerce:} PHP 7/8, Magento 1/2 (Adobe Commerce), Custom Modules, Laravel, REST/SOAP APIs, PHPUnit.
+	\item \textbf{Databases \& Infrastructure:} MySQL, MariaDB, Redis, Elasticsearch/OpenSearch, Docker, RabbitMQ, Varnish, Linux.
+	\item \textbf{Frontend:} JavaScript (React, VueJS, Knockout.js, jQuery), HTML5, CSS3 (SASS/LESS).
+	\item \textbf{Architecture \& DevOps:} Clean/Hexagonal Architecture, SOLID, Git, CI/CD (GitHub Actions, Bitbucket Pipelines).
+	\item \textbf{Integrations \& Tools:} Cloud (Adobe Commerce Cloud), ERP/CRM, Payment Gateways, Agile/Scrum, Jira/Confluence.
+\end{itemize}
 	
 	% --- Habilidades blandas --- %
 	\header{Soft Skills}
-	\begin{itemize}[noitemsep, topsep=3pt]
-		\item \textbf{Clear Technical Communication}: Able to explain complex technical ideas in simple terms, ensuring alignment with both technical and non-technical stakeholders.
-		\item \textbf{Collaborative \& Culturally Fluent}: Experience working with international teams across Latin America (Chile, Argentina, Bolivia), fostering strong remote collaboration and teamwork.
-		\item \textbf{Leadership \& Mentorship}: Mentored junior developers and supported knowledge sharing in Magento projects, promoting continuous growth within the team.
-		\item \textbf{Problem-Solving Mindset}: Analytical and resourceful when debugging, optimizing code, or resolving unexpected system issues under pressure.
-		\item \textbf{Client-Focused \& Delivery-Oriented}: Committed to delivering high-quality solutions that balance technical excellence with real business needs and deadlines.
-	\end{itemize}
+\begin{itemize}[noitemsep, topsep=2pt]
+	\item \textbf{Technical Leadership:} Expert at mentoring junior devs and translating complex technical concepts for non-technical stakeholders.
+	\item \textbf{International Collaboration:} Extensive experience in remote, multicultural environments across Chile, Argentina, and Bolivia.
+	\item \textbf{Analytical Problem-Solving:} Strong focus on debugging, code optimization, and resolving critical system issues under pressure.
+	\item \textbf{Strategic Delivery:} Business-oriented mindset, balancing technical excellence with project deadlines and client needs.
+\end{itemize}
 	
 	
 	% --- Experiencia laboral --- %
 	\header{Professional Experience}
-	
-	\header{Freelance Projects}
-	\begin{itemize}[noitemsep, topsep=3pt]
-		\item \textbf{Magento 2 Technical Consultant} \hfill 2022-2024
-		\begin{itemize}[noitemsep, topsep=3pt]
-			\item \textbf{Argentinian eCommerce Store} (2024): Diagnosed and resolved cart/catalog rule conflicts. Optimized promotional rule processing time by 35\%
-			
-			\item \textbf{Andrew Cristian Electronics} (2022): Debugged and repaired payment gateway integration. Implemented secure transaction logging system.
-		\end{itemize}
-		
-		\item \textbf{Full-Stack Developer} \hfill 2019-2021
-		\begin{itemize}[noitemsep, topsep=3pt]
-			\item \textbf{Multi-Retenes eCommerce}: Built Magento 1 catalog with custom responsive theme, implemented SEO best practices (metadata, URLs, sitemaps) and increased organic traffic by 60\% within 3 months
-			
-			\item \textbf{Medical College of Santa Cruz}: Architected member registration web application. Developed advanced search with filters (name, specialty, region) and served 500+ medical professionals.
-		\end{itemize}
+	\jobtitle{Lead Engineer \& Principal Fullstack Developer}{2025 -- Present} \\
+	\company{Educational AI Platform (SaaS Startup Phase) | Hybrid}
+	\begin{itemize}[noitemsep, topsep=2pt]
+		\item Vision \& Execution: Leading the architectural design of a scalable SaaS platform integrating Magento 2 with RAG (AI) for automated learning paths.
+		\item Stack Leadership: Developed a high-performance headless frontend using \textbf{React}, consuming Magento’s REST API to deliver a seamless user experience.
 	\end{itemize}
-	
+		
 	\jobtitle{Senior Software Developer}{Mar 2024 - Mar 2025} \\
 	\company{Grupo Distelsa (Contracted via Widook) | Guatemala} \hfill \textit{Remote}
-	\begin{itemize}[noitemsep, topsep=3pt]
-		\item Integrated CyberSource (Visa) payment gateway with tokenization and card management.
-		\item Implemented Braze and Kevel for campaign automation and ad personalization.
-		\item Managed Adobe Commerce sites (max.com.gt, tecnofacil.com.gt), optimized inventory sync and performance.
-		\item Created banners and landing pages; enhanced UI/UX in PDP, PLP, and checkout.
-		\item Debugged module conflicts and ensured platform stability post-updates.
-	\end{itemize}
-	
+\begin{itemize}[noitemsep, topsep=2pt]
+	\item High-Security Payments: Integrated CyberSource (Visa) with tokenization and implemented Braze \& Kevel, significantly reducing checkout friction and ensuring advanced campaign automation for ad personalization.
+	\item System Stability: Managed enterprise Adobe Commerce sites, ensuring high-availability during peak traffic by streamlining inventory synchronization and optimizing platform stability.
+	\item Performance Optimization: Refactored UI/UX across the end-to-end customer journey (PDP, PLP, and Checkout), delivering a highly responsive experience and enhancing platform scalability for global operations.
+\end{itemize}
+
 	\jobtitle{Mid-level Software Developer}{Ene 2023 - Ene 2024} \\
 	\company{Linets SpA | Chile} \hfill \textit{Remote}
-	\begin{itemize}[noitemsep, topsep=3pt]
-		\item Migrated database schemas and upgraded Magento to 2.4.6 with PHP 8 compatibility.
-		\item Refactored ERP and payment gateway integrations.
-		\item Configured Adobe Commerce Cloud, optimized Knockout.js bindings, and ensured zero-downtime upgrades.
+	\begin{itemize}[noitemsep, topsep=2pt]
+		\item Platform Modernization: Led complex database schema migrations and upgraded the core ecosystem to Magento 2.4.6 and PHP 8.1, ensuring long-term system compatibility and enhanced security.
+		\item System Refactoring: Re-engineered ERP and payment gateway integrations, eliminating legacy bottlenecks and improving the reliability of background data synchronization.
+		\item Cloud Infrastructure: Configured Adobe Commerce Cloud environments and optimized Knockout.js bindings, delivering a more fluid frontend while ensuring zero-downtime upgrades during deployment cycles.
 	\end{itemize}
 	
 	
-	\jobtitle{Mid-level Full-Stack Developer}{Ene 2022 - Dic 2022} \\
-	\company{Balloon-Group by Fastforward.ai | Argentina} \hfill \textit{Remote}
-	\begin{itemize}[noitemsep, topsep=3pt]
-		\item Integrated TikTok, Facebook, and Google Pixel tracking across multi-store setups.
-		\item Enhanced backend admin panel and optimized API order processing.
-		\item Deployed live chat widgets and improved analytics configurations.
+	\jobtitle{Senior Magento Developer (Agile Remote Contracts)}{2021 - 2023} \\
+	\company{Balloon-Group | Summa Solutions | Grupo Formax}
+	\begin{itemize}[noitemsep, topsep=2pt]
+		\item \textbf{Balloon-Group:} Deployed tracking pixels (TikTok, FB, Google) ensuring accurate data attribution and optimized API processing for high-volume, scalable stores.
+		\item \textbf{Summa Solutions:} Architected custom REST APIs for Janis ERP, eliminating data latency in inventory sync and delivering frictionless localized checkout experiences.
+		\item \textbf{Grupo Formax:} Engineered a custom delivery engine that automated logistics logic and built secure payment modules (PagoEfectivo/Izipay) for multi-website setups.
 	\end{itemize}
-	
-	\jobtitle{Mid-level Software Developer}{2021 - 2022} \\
-	\company{Summa Solutions | Argentina} \hfill \textit{Remote}
-	\begin{itemize}[noitemsep, topsep=3pt]
-		\item Developed custom REST endpoints and integrated Janis ERP with automated sync.
-		\item Customized checkout UI for dynamic shipping methods.
-	\end{itemize}
-	
-	\jobtitle{Software Developer (Full Stack)}{2021} \\
-	\company{Grupo Formax | Chile} \hfill \textit{Remote}
-	\begin{itemize}[noitemsep, topsep=3pt]
-		\item Built catalog features with custom attributes and theme adaptations.
-		\item Enhanced PagoEfectivo/Izipay modules and created delivery date logic by product type.
-		\item Managed multi-website setup with localized configuration.
-	\end{itemize}
-	
 	\jobtitle{Software Developer (FullStack \& Integrations)}{2014 - 2021} \\
-	\company{Wagento Commerce | EEUU - Bolivia} \hfill \textit{Hibrid}
-	\begin{itemize}[noitemsep, topsep=3pt]
-		\item Developed payment modules (QR, bank transfer) and Braintree Subscriptions.
-		\item Integrated Salesforce, Zendesk, and SurveyMonkey with OAuth-based connectors.
-		\item Built custom REST APIs for ERP sync and customer service automation.
+	\company{Wagento Commerce | EEUU - Bolivia} \hfill \textit{Hybrid}
+	\begin{itemize}[noitemsep, topsep=2pt]
+		\item Developed payment modules (QR, bank transfer) and Braintree Subscriptions, implementing secure transaction flows and automated billing.
+		\item Architected custom REST APIs and OAuth-based connectors for seamless ERP/CRM synchronization (Salesforce, Zendesk, SurveyMonkey).
 	\end{itemize}
 	
-	\jobtitle{Web Developer}{2013 - 2014} \\
-	\company{Innova BI | Bolivia} \hfill \textit{On-site}
-	\begin{itemize}[noitemsep, topsep=3pt]
-		\item Developed eCommerce for Andean Books with search/filter features.
-		\item Built cemetery management system with custom database for record tracking.
-	\end{itemize}	
+	\jobtitle{Independent Technical Consultant}{2019 - 2024} \\
+
+\company{Various Clients | Argentina - Bolivia - Spain}
+	\begin{itemize}[noitemsep, topsep=2pt]
+		\item \textbf{eCommerce Optimization:} Resolved complex Magento 2 cart/catalog rule conflicts for Argentinian stores, reducing processing time by 35\%.
+		\item \textbf{System Architecture:} Designed a member registration app for the Medical College of Santa Cruz, featuring advanced filtering for 500+ professionals.
+		\item \textbf{Technical Support:} Debugged payment gateways and implemented secure logging for Andrew Cristian Electronics.
+	\end{itemize}
 	
 	
 	% --- Certificaciones --- %
-	\header{courses and certifications}
-	\begin{itemize}[noitemsep, topsep=3pt]
-		\item \textbf{Adobe Commerce as a Cloud Service Foundations} \\
-		Certificate of course completion \hfill 2026
-		\item \textbf{Magento U, Online - Fundamentals of Magento 2 Develoment} \\
-		Online course on the principles for starting to program on Magento 2 \hfill 2017
-		\item  \textbf{Magento U, Online - Responsive Web Design in Magento 2} \\
-		Course on the implementation of responsive themes in Magento 2 \\hfill 2017
-		\item  \textbf{Developer Google, Online - Web development} \\
-		Online course taught by Google to create web applications. \hfill 2016
-		\item  \textbf{MCD certification, Online - Magento Developer Certificated.} \\
-		Magento International Certification Exam, with prometric registration: 0g0lam06uv url: https://u.magento.com/certification/directory/dev/2347005\hfill 2016
-	\end{itemize}
+	\header{Courses \& Certifications}
+
+\begin{itemize}[noitemsep, topsep=1pt]
+	\item \textbf{Adobe Certified Professional:} Magento Developer (MCD) \hfill 2016
+	\item \textbf{Adobe Commerce Cloud:} Cloud Service Foundations \& Optimizer Foundations \hfill 2026
+	\item \textbf{Magento U:} Fundamentals of Magento 2 Development \& Responsive Web Design \hfill 2017
+	\item \textbf{Languages:} English EF-SET B1 Intermediate (Reading/Writing B1) -- \href{https://cert.efset.org/es/YEZUkS}{Verify} \hfill 2026
+	\item \textbf{Other Training:} Google Web Development \& Advanced PHP Specialization \hfill 2016 / 2011
+\end{itemize}
 	
 	% --- Educación --- %
 	\header{Education}
 	\textbf{Licenciatura en Ingenieria de Sistemas} \\
 	Universidad Mayor de San Simón \hfill 2009 - 2016
-	
-	\textbf{Jornadas de Investigación de Ciencias de Computación} \\
-	Universidad Amazónica de Pando, Pando \hfill 2014
-	
-	\textbf{Intermediate Android Course} \\
-	Universidad Mayor de San Simón \hfill 2013
-	
-	\textbf{Advanced Web Programming with PHP} \\
-	Universidad Mayor de San Simón \hfill 2011
-	
-	
-	\textbf{Accounting Assistant Technician} \\
-	Instituto de Lectura Veloz, Estudio y Memoria ILVEM \hfill 2001
 	
 \end{document}
